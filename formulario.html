@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Python-Contacto</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Bungee+Outline" rel="stylesheet">
+    <link rel="stylesheet" href="../css/CSS.css" type="text/css" media="all">
+     <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.ico">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="myNavbar">
+             <h1 class="titulin">PYTHON</h1>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="../paginas/index.html">Home</a></li>
+                <li><a href="#">Projectos</a></li>
+                <li><a href="../paginas/formulario.html">Contacto</a></li>
+                <li><a href="../xml/microsoft.xml">XML</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container-fluid text-center">    
+              <h1>Suscríbete</h1>
+              <p>Rellena el formulario que te mostramos a continuación y suscríbete a nuestra newsletter. Te mantendremos informado de todas las novedades con nuestro boletín semanal, además tenemos un regalo de bienvenida para todos los usuarios nuevos ;)</p><hr>
+              <form action="action_page.php" method="get">
+                  <label>Nombre:</label>
+                  <input type="text" name="firstname"><br>
+                  <label>Apellidos: </label>
+                  <input type="text" name="lastname"><br>
+                  <label>E-Mail: </label>
+                  <input type="email" name="email"><br>
+                  <label>Usuario: </label>
+                  <input type="text" name="username"><br>
+                  <label>Contraseña: </label>
+                  <input type="password" name="psw"><br>
+                  <label>Sexo: </label>
+                  <input type="radio" name="gender" value="male" checked> Hombre
+                  <input type="radio" name="gender" value="female"> Mujer
+                  <input type="radio" name="gender" value="other"> Otro<br>
+                  <label>Fecha de nacimiento: </label>
+                  <input type="date" name="bday"><br>
+                  <label>Teléfono de contacto: </label>
+                  <input type="tel" name="usrtel"><br>
+                  <label>Añade tu página web o blog personal:</label>
+                  <input type="url" name="homepage">
+                  <br><input type="submit">
+                  <input type="submit" value="Restablecer">
+              </form> <br>
+        </div>
+
+        <footer class="container-fluid text-center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">licencia de Creative Commons Reconocimiento-SinObraDerivada 4.0 Internacional</a>
+            <p>Escríbenos a: python@example.com</p>
+        </footer>
+
+    </body>
+</html>
